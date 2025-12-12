@@ -19,7 +19,8 @@ A Streamlit web app that enables **Retrieval-Augmented Generation (RAG)** on PDF
 - View already indexed PDF files in the app.
 - Supports GPU acceleration (if available) for faster model inference.
 
-![App Screenshot](LLMRAGsmall.jpg)
+
+![LLMRAG](https://github.com/user-attachments/assets/b9b82f5e-484d-4ccc-a177-6b7d89e6b459)
 
 
 ---
