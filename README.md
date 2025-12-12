@@ -118,3 +118,21 @@ This will launch the Streamlit server and open your app in a browser window (usu
   - `pymongo`
   - `langchain_text_splitters`
   - `numpy`
+
+
+ ## About `google/flan-t5-base`
+
+`google/flan-t5-base` is a fine-tuned variant of the T5 (Text-to-Text Transfer Transformer) model developed by Google, part of the FLAN family designed for improved instruction-following capabilities.
+
+### Key Features
+
+- **Text-to-Text Framework:** All tasks are framed as text input to text output.
+- **Instruction Tuning:** Fine-tuned on a diverse set of instructions to better understand and follow prompts.
+- **Base Model Size:** Provides a balanced trade-off between speed and performance.
+- **Versatile Applications:** Suitable for text generation, summarization, translation, question answering, and more.
+
+
+### Links
+
+- Model on Hugging Face: [google/flan-t5-base](https://huggingface.co/google/flan-t5-base)  
+- Transformers Library: [huggingface/transformers](https://github.com/huggingface/transformers)
