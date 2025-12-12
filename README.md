@@ -34,6 +34,9 @@ A Streamlit web app that enables **Retrieval-Augmented Generation (RAG)** on PDF
 
 2. Add vector search index:
 
+![vectorsearch](https://github.com/user-attachments/assets/320a49a5-2b50-4c63-8239-49affb331a25)
+
+
 - Open MongoDB Atlas Console and navigate to your cluster.
 
 - Go to your database and then your collection (e.g., vectors).
