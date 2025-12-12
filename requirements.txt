@@ -1,0 +1,8 @@
+langchain_text_splitters==1.0.0
+numpy==2.3.5
+pymongo==4.15.5
+pypdf==6.4.1
+sentence_transformers==5.1.2
+streamlit==1.52.1
+torch==2.8.0
+transformers==4.56.1
