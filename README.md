@@ -135,6 +135,28 @@ This will launch the Streamlit server and open your app in a browser window (usu
   - `langchain_text_splitters`
   - `numpy`
 
+## Installation Flow Chart
+```mermaid
+flowchart TD
+    A[Start Installation] --> B[Install Python 3.9+]
+    B --> C[Create Virtual Environment]
+    C --> D[Activate Virtual Environment]
+    D --> E[Install Python Dependencies]
+    E --> F[Install PyTorch]
+    F --> G[Install Sentence-Transformers]
+    G --> H[Install Streamlit]
+    H --> I[Create MongoDB Atlas Account]
+    I --> J[Create MongoDB Cluster]
+    J --> K[Create Database and Collection]
+    K --> L[Create Vector Search Index<br/>Dimensions = 384]
+    L --> M[Generate MongoDB Connection String]
+    M --> N[Export MONGO_URI Environment Variable]
+    N --> O[First Run Downloads Embedding Model]
+    O --> P[First Run Downloads LLM Model]
+    P --> Q[Installation Complete]
+
+```
+
 
  ## About `google/flan-t5-base`
 
