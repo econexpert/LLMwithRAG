@@ -25,6 +25,22 @@ A Streamlit web app that enables **Retrieval-Augmented Generation (RAG)** on PDF
 
 ---
 
+## System Workflow (RAG Pipeline)
+
+```mermaid
+flowchart TD
+    A[Upload PDF] --> B[Extract Text]
+    B --> C[Chunk Text]
+    C --> D[Create Embeddings]
+    D --> E[Store in MongoDB Vector Search]
+
+    F[Ask Question] --> G[Embed Query]
+    G --> H[Vector Search]
+    H --> I[Top-k Chunks]
+    I --> J[LLM Answer]
+
+```
+
 ## Installation
 
 1. Clone the repo:
